@@ -1,0 +1,16 @@
+{
+  "name": "actual-sync",
+  "version": "1.0.0",
+  "description": "Unified Actual Budget sync orchestrator for Edenred, Trading212, and bank accounts with ntfy reporting.",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --env-file-if-exists=.env index.js"
+  },
+  "dependencies": {
+    "@actual-app/api": "^26.7.0",
+    "actual-edenred": "git+https://github.com/itsbekas/actual-edenred.git",
+    "actual-t212": "git+https://github.com/itsbekas/actual-t212.git",
+    "dayjs": "^1.11.18"
+  }
+}
